@@ -3,55 +3,64 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Webstudio</title>
   </head>
   <body>
     <header>
       <nav>
-        <a href=""><span>WEB</span>STUDIO</a>
-        <menu>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
+        <a href="" class="logo"><span class="logo-web">WEB</span>STUDIO</a>
+        <ul class="main-menu">
+          <li><a href="index.html">Studio</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="">Contacts</a></li>
-        </menu>
+        </ul>
       </nav>
       <address>
-        <ul>
+        <ul class="contact-menu">
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
     </header>
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="hero">
+        <h1 class="main-header">Effective Solutions for Your Business</h1>
+        <button type="button" class="default-button active-button">
+          Order Service
+        </button>
       </section>
       <section>
         <ul>
           <li>
-            <h3>Strategy</h3>
+            <h3 class="card-header">Strategy</h3>
             <p>
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
+            <h3 class="card-header">Punctuality</h3>
             <p>
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
+            <h3 class="card-header">Diligence</h3>
             <p>
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
+            <h3 class="card-header">Technologies</h3>
             <p>
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
@@ -60,7 +69,7 @@
         </ul>
       </section>
       <section>
-        <h2>What are we doing</h2>
+        <h2 class="section-header">What are we doing</h2>
         <ul>
           <li>
             <img
@@ -89,69 +98,59 @@
         </ul>
       </section>
       <section>
-        <h2>Our Team</h2>
+        <h2 class="section-header">Our Team</h2>
         <ul>
           <li>
-            <figure>
+            <div>
               <img
                 src="images/mark-guerrero.jpg"
                 alt="man with beard wearing light blue shirt"
                 width="264"
                 height="260"
               />
-              <figcaption>
-                <h3>Mark Guerrero</h3>
-                <p>Product Designer</p>
-              </figcaption>
-            </figure>
+              <h3 class="card-header">Mark Guerrero</h3>
+              <p>Product Designer</p>
+            </div>
           </li>
           <li>
-            <figure>
+            <div>
               <img
                 src="images/tom-ford.jpg"
                 alt="man wearing light blue shirt"
                 width="264"
                 height="260"
               />
-              <figcaption>
-                <h3>Tom Ford</h3>
-                <p>Frontend Developer</p>
-              </figcaption>
-            </figure>
+              <h3 class="card-header">Tom Ford</h3>
+              <p>Frontend Developer</p>
+            </div>
           </li>
           <li>
-            <figure>
+            <div>
               <img
                 src="images/camila-garcia.jpg"
                 alt="woman with dark long hair wearing pink sweater"
                 width="264"
                 height="260"
               />
-              <figcaption>
-                <h3>Camila Garcia</h3>
-                <p>Marketing</p>
-              </figcaption>
-            </figure>
+              <h3 class="card-header">Camila Garcia</h3>
+              <p>Marketing</p>
+            </div>
           </li>
           <li>
-            <figure>
-              <img
-                src="images/daniel-wilson.jpg"
-                alt="man with beard wearing light grey t shirt"
-                width="264"
-                height="260"
-              />
-              <figcaption>
-                <h3>Daniel Wilson</h3>
-                <p>UI Designer</p>
-              </figcaption>
-            </figure>
+            <img
+              src="images/daniel-wilson.jpg"
+              alt="man with beard wearing light grey t shirt"
+              width="264"
+              height="260"
+            />
+            <h3 class="card-header">Daniel Wilson</h3>
+            <p>UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <a href=""><span>WEB</span>STUDIO</a>
+    <footer class="footer">
+      <a href="" class="logo-footer"><span class="logo-web">WEB</span>STUDIO</a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.

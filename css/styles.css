@@ -1,0 +1,106 @@
+:root {
+    --brand-color: #4D5AE5;
+    --pressed-state-color: #404BBF;
+    --dark-color: #2E2F42;
+    --success-color: #31D0AA;
+    --text-color: #434455;
+    --subtle-text-color: #8E8F99;
+    --accent-color: #E7E9FC;
+    --light-color: #F4F4FD;
+    --modal-background-color: #FCFCFC;
+    --white-color: #fff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text-color);
+}
+
+.logo {
+    color: var(--dark-color);
+    text-decoration: none;    
+}
+
+.logo-web {
+    color: var(--brand-color);
+}
+
+.main-menu a {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+.main-menu a:hover {
+    color: var(--pressed-state-color);
+    text-decoration: underline;
+}
+
+.contact-menu a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.contact-menu a:hover {
+    color: var(--pressed-state-color);
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: var(--dark-color);
+}
+
+.main-header {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+}
+
+.default-button {
+    cursor: pointer;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.active-button {
+    color: var(--white-color);
+    background-color: var(--brand-color);
+}
+
+.active-button:hover {
+    color: var(--white-color);
+    background-color: var(--pressed-state-color);
+}
+
+.primary-button {
+    color: var(--brand-color);
+    background-color: var(--light-color);
+}
+
+.primary-button:hover {
+    background-color: var(--accent-color);
+}
+
+.section-header {
+    color: var(--dark-color);
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.card-header {
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer {
+    color: var(--white-color);
+    background-color: var(--dark-color);
+}
+
+.logo-footer {
+    color: var(--white-color);
+    text-decoration: none;
+}
+
