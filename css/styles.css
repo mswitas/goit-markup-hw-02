@@ -16,13 +16,20 @@ body {
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+ul {
+    list-style: none;
 }
 
 .logo {
     text-decoration: none;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    font-size: 18px;    
+    font-size: 18px;
+    letter-spacing: 0.36px;
+    line-height: 1.5;    
 }
 
 .logo-top {
@@ -36,21 +43,24 @@ body {
 .main-menu a {
     color: var(--dark-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
 }
 
 .main-menu a:hover {
     color: var(--pressed-state-color);
-    text-decoration: underline;
 }
 
 .contact-menu a {
     color: var(--text-color);
     text-decoration: none;
+    font-style: normal;
 }
 
 .contact-menu a:hover {
     color: var(--pressed-state-color);
-    text-decoration: underline;
 }
 
 .hero {
@@ -61,17 +71,26 @@ body {
     color: var(--white-color);
     font-weight: 700;
     font-size: 56px;
+    letter-spacing: 1.12px;
     line-height: 1.07;
 }
 
 .default-button {
     cursor: pointer;
     border: none;
-    padding: 15px;
     border-radius: 4px;
     font-weight: 500; 
     font-size: 16px;
     line-height: 1.5;
+    font-family: inherit;
+    letter-spacing: 0.64px;
+    color: var(--brand-color);
+    background-color: var(--light-color);
+}
+
+.default-button:hover {
+    color: var(--white-color);
+    background-color: var(--pressed-state-color);
 }
 
 .active-button {
@@ -79,30 +98,22 @@ body {
     background-color: var(--brand-color);
 }
 
-.active-button:hover {
-    color: var(--white-color);
-    background-color: var(--pressed-state-color);
-}
-
-.primary-button {
-    color: var(--brand-color);
+.team-section {
     background-color: var(--light-color);
-}
-
-.primary-button:hover {
-    background-color: var(--accent-color);
 }
 
 .section-header {
     color: var(--dark-color);
     font-weight: 700;
     font-size: 36px;
+    letter-spacing: 0.72px;
 }
 
 .card-header {
     color: var(--dark-color);
     font-weight: 500;
     font-size: 20px;
+    letter-spacing: 0.4px;
 }
 
 .footer {
@@ -112,6 +123,5 @@ body {
 
 .logo-footer {
     color: var(--white-color);
-    text-decoration: none;
 }
 
